@@ -37,3 +37,11 @@ It may also be that you'll receive error spewage on the console at
 startup which you'll need to fix before the admin site will
 work. Typically, these fixes need to be made in `inspected/models.py`
 only.
+
+## License
+
+Copyright 2019 Ville Skyttä  
+SPDX-License-Identifier: BSD-3-Clause
+
+Applies to Django instant admin itself as a whole; not e.g. to the
+models you may generate and use with it.
