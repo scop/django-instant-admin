@@ -1,6 +1,7 @@
 # Copyright 2019 Ville Skyttä
 # SPDX-License-Identifier: BSD-3-Clause
 
+
 class DatabaseRouter:
     def db_for_read(self, model, **hints):
         if model._meta.app_label == 'inspected':
